@@ -1,4 +1,4 @@
 function  decToBin(number){
-return (number >>> 0).toString(2);
+return number.toString(2);
 }
-console.log(decToBin(5))
+console.log(decToBin(192))
