@@ -21,6 +21,10 @@ console.log(getFahrenheit(5))
 //  console.log(substrationMinusThirtyTwo(numbers))
 let fahrenheit = Math.ceil(Math.random()*9)
 function getCelsius (fahrenheit) {
-    return(fahrenheit-32) * (5/9)
+    return(fahrenheit-32) 
 }
-console.log(getCelsius(fahrenheit))
+console.log(getCelsius(100))
+function multiplicationFiveDividedByNine(number){
+    return getCelsius(fahrenheit)*(5/9)
+}
+console.log(multiplicationFiveDividedByNine(15))
