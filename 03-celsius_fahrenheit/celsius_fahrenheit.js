@@ -13,14 +13,14 @@ console.log(multiplyByNineFifths(number) )
 console.log(getFahrenheit(5))
 
 // // do the same thing starting from Fahrenheit to Celsius
-let numbers= Math.ceil(Math.random()*4)
-function substrationMinusThirtyTwo(numbers){
-    return ((numbers - 32)*5/9 )
-}
-
- console.log(substrationMinusThirtyTwo(numbers))
-
-// function getCelsius (fahrenheit) {
-//     return(substrationMinusThirtyTwo) * 5/9
+// let numbers= Math.ceil(Math.random()*4)
+// function substrationMinusThirtyTwo(numbers){
+//     return ((numbers - 32)*5/9 )
 // }
-// console.log(getCelsius(4))
+
+//  console.log(substrationMinusThirtyTwo(numbers))
+let fahrenheit = Math.ceil(Math.random()*9)
+function getCelsius (fahrenheit) {
+    return(fahrenheit-32) * (5/9)
+}
+console.log(getCelsius(fahrenheit))
