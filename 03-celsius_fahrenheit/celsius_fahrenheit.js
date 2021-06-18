@@ -1,12 +1,30 @@
-// define a function multiplyByNineFifths(number)
+//define a function multiplyByNineFifths(number)
+let number= Math.ceil(Math.random()*6)
+function multiplyByNineFifths  (number)   {
+    return number*(9/5)
+};
+console.log(multiplyByNineFifths(number) )
+// // define a function getFahrenheit(celsius)
+ function getFahrenheit (celsius) {
+    return multiplyByNineFifths(number) + 32;
+}
 
-    //return number*(9/5)
+ // call getFahrenheit();
+console.log(getFahrenheit(5))
 
-// define a function getFahrenheit(celsius)
+// // do the same thing starting from Fahrenheit to Celsius
+// let numbers= Math.ceil(Math.random()*4)
+// function substrationMinusThirtyTwo(numbers){
+//     return ((numbers - 32)*5/9 )
+// }
 
-    // return multiplyByNineFifths(celsius) + 32;
-
-console.log() // call getFahrenheit();
-
-
-// do the same thing starting from Fahrenheit to Celsius
+//  console.log(substrationMinusThirtyTwo(numbers))
+let fahrenheit = Math.ceil(Math.random()*9)
+function getCelsius (fahrenheit) {
+    return(fahrenheit-32) 
+}
+console.log(getCelsius(100))
+function multiplicationFiveDividedByNine(number){
+    return getCelsius(fahrenheit)*(5/9)
+}
+console.log(multiplicationFiveDividedByNine(15))
